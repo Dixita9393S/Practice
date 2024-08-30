@@ -9,10 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.main.entity.Student;
 import com.example.main.service.StudentService;
+
+
 @RestController
-public class StudentController {
-	
-	
+	public class StudentController {
+
 
 		@Autowired
 		public StudentService studentService;

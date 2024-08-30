@@ -16,4 +16,6 @@ public class StudentServiceImp implements StudentService {
 		Student student1 = studentRepository.save(student);
 		return student1;
 	}
+
 }
+
